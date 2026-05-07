@@ -1,0 +1,113 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+
+.login-container {
+  background: #fff;
+  padding: 30px;
+  width: 320px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* 🔥 spacing between elements */
+}
+
+
+.login-container h1,
+.login-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+
+.login,
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.login label,
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+
+.login input,
+.form-group input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s;
+}
+
+
+.login input:focus,
+.form-group input:focus {
+  border-color: #2575fc;
+  box-shadow: 0 0 5px rgba(37, 117, 252, 0.3);
+}
+
+.forgot {
+  text-align: right;
+}
+
+.forgot a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #2575fc;
+}
+
+.forgot a:hover {
+  text-decoration: underline;
+}
+
+
+button {
+  padding: 10px;
+  background: #2575fc;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+button:hover {
+  background: #1a5edb;
+}
+
+
+#otp {
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+#message,
+#msg {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 5px;
+}
